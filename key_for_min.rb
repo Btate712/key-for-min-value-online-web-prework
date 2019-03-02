@@ -12,7 +12,6 @@ def key_for_min_value(name_hash)
       if value < smallest_value
         smallest_value = value
         smallest_key = key
-        puts "New Smallest Value is #{smallest_value} with a key of #{smallest_key}."
       end
     end
   end
